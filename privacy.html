@@ -62,6 +62,7 @@
 <p>We use a small number of service providers to operate the App. Each only receives what it needs to do its job:</p>
 <ul>
   <li><strong>Supabase</strong> — our database and authentication provider. Your account and app data are stored on Supabase's infrastructure.</li>
+  <li><strong>Apple (Sign in with Apple)</strong> and <strong>Google (Google Sign-In)</strong> — if you choose to sign in with one of these, they provide us your email address (and, depending on your choice, your name) to create and authenticate your account. We don't receive your password or any other data from these providers.</li>
   <li><strong>Anthropic (Claude API)</strong> — when you request an AI-generated meal plan, relevant pantry and macro-target data is sent to Anthropic's API to generate the suggestion. This only happens when you use that specific feature.</li>
   <li><strong>USDA FoodData Central</strong> and <strong>Open Food Facts</strong> — public nutrition databases we query when you search for foods. These lookups are for food data only and do not include your personal information.</li>
 </ul>
